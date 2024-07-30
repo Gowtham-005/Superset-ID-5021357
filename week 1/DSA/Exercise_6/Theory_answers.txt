@@ -1,0 +1,10 @@
+1. Search Algorithms:
+   - Linear Search: Iterates through each element until the desired one is found. Time complexity is O(n).
+   - Binary Search: Requires the dataset to be sorted. It repeatedly divides the search interval in half. Time complexity is O(log n).
+
+2. Time Complexity Comparison:
+   - Linear Search: O(n) (works on unsorted data)
+   - Binary Search: O(log n) (requires sorted data for efficiency)
+
+3. When to Use:
+   Use Linear Search when the dataset is small or unsorted. Use Binary Search for larger, sorted datasets to take advantage of the logarithmic time complexity.

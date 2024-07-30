@@ -1,0 +1,8 @@
+1. Data structures and algorithms are crucial for efficiently managing large inventories as they help in quick data retrieval, addition, and modification. Suitable data structures include HashMap for fast access, insertion, and deletion.
+
+2. Time complexity for HashMap operations:
+   - Add: O(1)
+   - Update: O(1)
+   - Delete: O(1)
+
+3. Optimization can be achieved by ensuring hash functions are well-distributed and handling potential collisions efficiently.

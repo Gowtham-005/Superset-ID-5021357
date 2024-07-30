@@ -1,0 +1,8 @@
+1. Recursive Algorithms:
+   Recursion involves a function calling itself to solve a problem. It can simplify the code for problems that have a natural recursive structure.
+
+2. Time Complexity Analysis:
+   The recursive algorithm's time complexity depends on the number of recursive calls and the complexity of each call. For predicting future values with a fixed growth rate, the complexity is O(n), where n is the number of years to predict.
+
+3. Optimization:
+   To avoid excessive computation, especially with large input sizes, optimization techniques like memoization can store previously computed values and reuse them in future calculations.

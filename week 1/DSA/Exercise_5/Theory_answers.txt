@@ -1,0 +1,12 @@
+1. Linked Lists:
+   - Singly Linked List: A list where each node contains data and a reference to the next node. It allows for efficient insertion and deletion from the beginning but requires O(n) time to access an element by index.
+   - Doubly Linked List: Each node contains data and two references (next and previous), allowing traversal in both directions. It provides more efficient insertion and deletion operations than singly linked lists but requires more memory.
+
+2. Time Complexity Analysis:
+   - Add Task: O(1) (if adding to the head or tail)
+   - Search Task: O(n) (as it may require traversing the entire list)
+   - Traverse Tasks: O(n) (since each node must be visited)
+   - Delete Task: O(n) (as it may require traversing to find the task and then unlinking it)
+
+3. Advantages:
+   Linked lists are advantageous for dynamic data structures where the size can change frequently. They allow efficient insertions and deletions without resizing issues associated with arrays.

@@ -1,0 +1,17 @@
+1. Big O Notation:
+   Big O notation is a mathematical representation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. It helps in analyzing the efficiency of algorithms, particularly their time complexity.
+
+2. Best, Average, and Worst-Case Scenarios:
+   - Linear Search:
+     - Best Case: O(1) (when the target is the first element)
+     - Average Case: O(n)
+     - Worst Case: O(n)
+   - Binary Search:
+     - Best Case: O(1) (when the target is the middle element)
+     - Average Case: O(log n)
+     - Worst Case: O(log n)
+
+3. Time Complexity Comparison:
+   - Linear Search: O(n)
+   - Binary Search: O(log n)
+   Binary search is more efficient than linear search for large, sorted datasets because it reduces the search space by half with each step.

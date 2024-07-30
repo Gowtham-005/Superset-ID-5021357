@@ -1,0 +1,11 @@
+1. Array Representation:
+   Arrays are contiguous blocks of memory where elements are stored. They provide fast access to elements based on index, which is beneficial for certain types of operations.
+
+2. Time Complexity Analysis:
+   - Add Employee: O(1) if there is space in the array; otherwise, O(n) if resizing is needed.
+   - Search Employee: O(n) as it may require checking each element.
+   - Traverse Employees: O(n) because each element needs to be visited.
+   - Delete Employee: O(n) as elements may need to be shifted.
+
+3. Limitations and Usage:
+   Arrays have a fixed size, which can be a limitation when the number of employees grows dynamically. They are suitable when the number of elements is known in advance and relatively static.
